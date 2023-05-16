@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav bar Top! */
+nav {
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.sideNav {
+    width: 15%;
+    height: 100px;
+}
+
+.midNav {
+    height: 100px;
+    width: 70%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+/* Nav Bar Bottom for feed */
+.nav2 {
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+/* MAIN CONTENT AHEAD! */
+
+
+.bigBox {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+}
+
+.bigColo {
+    width: 15%;
+    height: 1200px;
+}
+
+.coloavatar {
+    width: 25%;
+    height: 1200px;
+    display: flex;
+}
+
+.colonames {
+    width: 55%;
+    height: 1200px;
+}
+
+/* Left colomon info! */
+
+.avatar {
+    width: 90%;
+    height: 500px;
+    border: solid black 5px;
+}
+.topavatar {
+    width:100%;
+    height: 45%;
+    background-image:url("capture.PNG");
+    background-size: contain;
+}
+
+.midavatar {
+    width:100%;
+    height: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.addava {
+    color: dodgerblue;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.botavatar {
+    width:100%;
+    height: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h4 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/* Right coloumn info! */
+.likeBox {
+    width: 95%;
+    height: 300px;
+
+    margin-bottom: 20px;
+    border: solid black 5px;
+}
+
+.likeTop {
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+}
+
+.likeBot {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.liketop1 {
+    width: 50%;
+    height: 150px;
+
+}
+
+.liketop2 {
+    width: 25%;
+    height: 150px;
+;
+    display: flex;
+    font-size: 25px;
+
+    align-items: center;
+}
+
+.liketop3 {
+    width: 25%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    padding-top: 60px;
+    padding-left: 35px;
+}
+
+.likes {
+    padding-left: 10px;
+}
+
+#like1, #like2, #like3 {
+    height: 35px;
+    width: 60px;
+    background-color: rgb(255, 217, 102);
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.update {
+    font-size: 30px; 
+}
